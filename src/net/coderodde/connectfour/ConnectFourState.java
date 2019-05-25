@@ -275,6 +275,10 @@ public class ConnectFourState {
         return state[y][x];
     }
     
+    public PlayerColor readCell(final int x, final int y) {
+        return state[y][x];
+    }
+    
     public int getHeight() {
         return state.length;
     }
